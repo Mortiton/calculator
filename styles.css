@@ -21,8 +21,10 @@ body {
 
 #inner-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    gap: 100px;
     height: 100%;
     background-color:#252d5a;
     flex-basis: 70%;
@@ -30,5 +32,28 @@ body {
 
 h1 {
     color: white;
-    align-self: flex-start;
+    text-align: center;
+    margin: 30px;
+}
+
+#calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+}
+
+#calc-display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #888787;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 32px;
 }
