@@ -108,6 +108,9 @@ h1 {
     border: 2px solid black;
     border-radius: 10px;
     height: 60px;
+}
+
+.num {
     width: 60px;
 }
 
@@ -118,6 +121,10 @@ h1 {
 }
 
 .op {
+    margin: 5px;
+    width: 100px;
+}
 
-
+#equal {
+    width: 100px;
 }
