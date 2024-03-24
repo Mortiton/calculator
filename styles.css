@@ -71,14 +71,15 @@ h1 {
   font-size: 32px;
   background-color: #676f9c;
   font-family: "Silkscreen", serif;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   margin-left: 40px;
   margin-top: 5px;
   border: 2px solid black;
   padding: 10px;
   border-radius: 10px;
   justify-self: center;
+  cursor: pointer;
 }
 
 #inputs {
@@ -108,6 +109,7 @@ h1 {
     border: 2px solid black;
     border-radius: 10px;
     height: 60px;
+    cursor: pointer;
 }
 
 .num {
