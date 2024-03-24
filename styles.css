@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Silkscreen";
+    src: url("./fonts/slkscr.ttf");
+  }
+
+body {
+    height: 100vh;
+    font-family:"Silkscreen", serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    background-color: #4d5cb4;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:#252d5a;
+    flex-basis: 70%;
+}
+
+h1 {
+    color: white;
+    align-self: flex-start;
+}
