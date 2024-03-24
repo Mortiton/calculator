@@ -39,10 +39,12 @@ h1 {
 #calculator {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 20px;
     border: 2px solid black;
     height: 500px;
     width: 400px;
+    background-color: #2b354e;
+    border-radius: 20px;
 }
 
 #calc-display {
