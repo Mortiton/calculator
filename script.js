@@ -2,7 +2,10 @@
 const calDisplay = document.querySelector("#calc-display");
 const clearBtn = document.querySelector("#clear");
 const numBtns = document.querySelectorAll(".num");
+const opBtns = document.querySelectorAll(".op")
 let noInputs = true;
+let firstNumber = null;
+let secondNumber = null;
 //FUNCTIONS
 
 //Set the display to zero
@@ -17,7 +20,13 @@ function numPressed(event) {
     calDisplay.textContent= "";
     noInputs = false;
   }
-  calDisplay.textContent += event.target.value;
+  calDisplay.textContent += Number(event.target.value);
+}
+
+//calculation function
+//needs two numbers for an input and an operator. 
+//Get the numbers from the calDisplay
+function calculate(operator) {
 }
 //EVENT LISTENERS
 clearBtn.addEventListener("click", clearDisplay);

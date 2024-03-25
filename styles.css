@@ -43,14 +43,15 @@ h1 {
   padding-top: 20px;
   border: 2px solid black;
   height: 500px;
-  width: 400px;
+  width: 450px;
   background-color: #2b354e;
   border-radius: 20px;
 }
 
 #calc-display-clear {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    gap: 10px;
 }
 
 #calc-display {
@@ -60,8 +61,8 @@ h1 {
   align-items: center;
   background: #4f5577;
   border-radius: 25px;
-  flex-basis: 200px;
-  width: 200px;
+  flex-basis: 300px;
+  width: 300px;
   height: 50px;
   border: 2px solid black;
   padding: 10px;
@@ -73,7 +74,6 @@ h1 {
   font-family: "Silkscreen", serif;
   width: 70px;
   height: 70px;
-  margin-left: 40px;
   margin-top: 5px;
   border: 2px solid black;
   padding: 10px;
@@ -108,12 +108,12 @@ h1 {
     font-size: 24px;
     border: 2px solid black;
     border-radius: 10px;
-    height: 60px;
+    height: 70px;
     cursor: pointer;
 }
 
 .num {
-    width: 60px;
+    width: 70px;
 }
 
 #zero {
@@ -129,4 +129,9 @@ h1 {
 
 #equal {
     width: 100px;
+}
+
+button:active:hover,
+#clear:active:hover {
+  background-color: #494f6e;
 }
