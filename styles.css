@@ -102,7 +102,8 @@ h1 {
     flex: 1;
 }
 .num,
-.op {
+.op,
+#equal {
     background-color: #676f9c;
     font-family: "Silkscreen", serif;
     font-size: 24px;
@@ -128,10 +129,12 @@ h1 {
 }
 
 #equal {
+    margin: 5px;
     width: 100px;
 }
 
 button:active:hover,
-#clear:active:hover {
+#clear:active:hover,
+#equal:active:hover {
   background-color: #494f6e;
 }
